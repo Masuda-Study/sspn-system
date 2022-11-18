@@ -1,0 +1,28 @@
+{
+    "_comments": [
+        "name:システム名",
+        "LPSEpsilon:測位基板のシリアルポート指定",
+        "Arduino_tem_port:温度測定用Arudinoのシリアルポート指定",
+        "kiki_num:超音波機器番号",
+        "CONNECTION_STRING:ioTHubのプライマリ接続文字列",
+        "bu_file_path:バックアップ用のファイルのパス",
+        "start_LED:スタートしたことを知らせるLEDのGPIO番号",
+        "Error_LED:エラーが発生したことを知らせるLED番号",
+        "i2c_Address:温度センサーのアドレス",
+        "takuto_switch:制御用の宅うとswitchの番号",
+        "toggle_switch:トグルスイッチのボード番号"
+    ],
+    "name":"SS Positioning System for Drones",
+    "LPSEpsilon":"/dev/ttyUSB0",
+    "LPSEpsilon_notepc":"COM4",
+    "Arduino_tem_port":"/dev/ttyACM0",
+    "kiki_num":0,
+    "CONNECTION_STRING":"HostName=Ultrasonicpi.azure-devices.net;DeviceId=potision_hub;SharedAccessKey=L+LNUhmfrSwIgN9qXz9h06vKJ9hL4juTrejmKz7PqQc=",
+    "bu_file_path":"/home/pi/Ultrasonic/system/backup_csv/324.csv",
+    "start_LED":18,
+    "Error_LED":16,
+    "takuto_switch":38,
+    "toggle_switch":37,
+    "i2c_Address":69
+
+}
